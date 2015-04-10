@@ -28,7 +28,7 @@
           <div class="form-group required">
             <label class="col-sm-2 control-label" for="input-code"><span data-toggle="tooltip" data-html="true" data-trigger="click" title="<?php echo htmlspecialchars($help_code); ?>"><?php echo $entry_code; ?></span></label>
             <div class="col-sm-10">
-              <textarea name="code" rows="5" id="input-code" class="form-control"><?php echo $code; ?></textarea>
+              <textarea name="code" rows="5" id="input-code" class="form-control"><?php echo $google_hangouts_code; ?></textarea>
               <?php if ($error_code) { ?>
               <div class="text-danger"><?php echo $error_code; ?></div>
               <?php } ?>
